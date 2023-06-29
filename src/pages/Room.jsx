@@ -73,7 +73,7 @@ const Room = () => {
             <textarea
               required
               maxLength={1000}
-              placeholder='Mambo Vipi...'
+              placeholder='Made with love by Eliakim Nyawinda'
               onChange={(e) => setMessageBody(e.target.value)}
               value={messageBody}
             />
